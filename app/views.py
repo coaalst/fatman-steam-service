@@ -11,4 +11,4 @@ def send_image():
     os.system('fswebcam -r 1024x768 -S 10 ' + os.path.join(basedir, 'vladanaa.jpg'))
 
     filename = 'vladanaa.jpg'
-    return send_file(filename, mimetype='image/gif')
+    return send_file(filename, mimetype='image/jpg')
